@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-root > .carousel-slider {
+    overflow: visible !important;
+}
+ 
+.carousel-root > .carousel-slider > .slider-wrapper {
+  overflow: visible !important;
+}
+
+.mediaContainer {
+  display: none;
+
+}
+
+.mediaWrapper:hover > .mediaContainer {
+  display: block;
+}
+
+.carousel-root > .carousel-slider > .control-arrow {
+  padding: 22px !important;
+}
+
+.carousel-root > .carousel-slider > .control-prev  {
+  left: -56px !important;
+}
